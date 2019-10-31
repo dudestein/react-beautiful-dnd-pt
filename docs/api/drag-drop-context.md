@@ -62,7 +62,7 @@ class App extends React.Component {
 }
 ```
 
-### Using a `function` component
+### Utilizando um componente `function`
 
 ```js
 import React from 'react';
