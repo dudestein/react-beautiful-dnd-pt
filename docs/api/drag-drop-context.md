@@ -1,6 +1,6 @@
 # `<DragDropContext />`
 
-In order to use drag and drop, you need to have the part of your `React` tree that you want to be able to use drag and drop in wrapped in a `<DragDropContext />`. It is advised to just wrap your entire application in a `<DragDropContext />`. Having nested `<DragDropContext />`'s is _not_ supported. You will be able to achieve your desired conditional dragging and dropping using the props of `<Droppable />` and `<Draggable />`. You can think of `<DragDropContext />` as having a similar purpose to the [react-redux Provider component](https://react-redux.js.org/api/provider)
+Para usar clique e arraste, você precisa ter a parte da sua árvore `React` em que você quer usar clique e arraste encapsulada em um `<DragDropContext />`. É aconselhável encapsular sua aplicação inteira em um `<DragDropContext />`. Ter `<DragDropContext />` aninhados ainda não é suportado. Você vai conseguir alcançar o objetivo de clique e arraste condicional desejado usando os props do `<Droppable />` e `<Draggable />`. Você pode pensar do `<DragDropContext />` como tendo propósito similar ao componente [react-redux Provider component](https://react-redux.js.org/api/provider)
 
 ## Props
 
@@ -22,11 +22,11 @@ type Props = {|
 |};
 ```
 
-> See our [type guide](/docs/guides/types.md) for more details
+> Veja o nosso [type guide](/docs/guides/types.md) para mais detalhes.
 
-## Basic usage
+## Utilização básica
 
-### Using a `class` component
+### Usando um componente `class`
 
 ```js
 import React from 'react';
@@ -44,7 +44,7 @@ class App extends React.Component {
     /*...*/
   };
   onDragEnd = () => {
-    // the only one that is required
+    // O único que é realmente necessário
   };
 
   render() {
@@ -98,10 +98,10 @@ function App() {
 
 ## `Responders`
 
-> `Responders` were previously known as `Hooks`
+> `Responders` eram conhecidos anteriormente como `Hooks`
 
-Responders are top level application events that you can use to perform your own state updates, style updates, as well as to make screen reader announcements.
+Responders são eventos de aplicação no nível de aplicação que você pode utilizar para fazer sua própria atualização de estado, de estilo, além de fazer anúncios para leitores de tela.
 
-[Please see our Responders guide](/docs/guides/responders.md) for detailed information about responders ❤️
+[Veja nosso guia de responders](/docs/guides/responders.md) para informações detalhadas sobre responders ❤️
 
-[← Back to documentation](/README.md#documentation-)
+[← Voltar para a documentação](/README.md#documentation-)
