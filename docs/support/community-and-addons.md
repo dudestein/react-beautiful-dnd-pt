@@ -1,18 +1,18 @@
-# Community and addons
+# Add-ons e Comunidade
 
-## Community ❤️👋
+## Comunidade ❤️👋
 
-- [kanban-dnd](https://kanban-dnd.glitch.me) - A Kanban style to-do list, with the ability to create custom lanes and reorder them on the fly.
-- [react-beautiful-dnd-test-utils](https://github.com/colinrcummings/react-beautiful-dnd-test-utils) - Test utils for `react-beautiful-dnd` buit with `react-testing-library`.
-- Simple Trello - A simple cloning version of Trello, using React ecosystem.
-  - [Demo](https://simple-trello.netlify.com/)
-  - [Source](https://github.com/ng-hai/simple-trello)
-- 🎮 A drag'n'drop Checkers game
-  - [Demo](https://checkers-game.netlify.com/)
-  - [Source](https://github.com/emanuellarini/checkers)
+- [kanban-dnd](https://kanban-dnd.glitch.me) - Uma lista de tarefas estilo Kanban com a habilidade de criar trilhas personalizadas e reordená-las sob demanda.
+- [react-beautiful-dnd-test-utils](https://github.com/colinrcummings/react-beautiful-dnd-test-utils) - Utilidades de testes para o `react-beautiful-dnd` desenvolvido com o `react-testing-library`.
+- Simple Trello - Um clone simples do Trello, usando o ecossistema React.
+  - [Demonstração](https://simple-trello.netlify.com/)
+  - [Código fonte](https://github.com/ng-hai/simple-trello)
+- 🎮 Um jogo de xadrez com clique e arraste
+  - [Demonstração](https://checkers-game.netlify.com/)
+  - [Código fonte](https://github.com/emanuellarini/checkers)
 
-## Addons
+## Add-ons
 
-- [natural-drag-animation-rbdnd](https://github.com/rokborf/natural-drag-animation-rbdnd) adds natural dragging animation
+- [natural-drag-animation-rbdnd](https://github.com/rokborf/natural-drag-animation-rbdnd) Adiciona uma animação de arraste natural
 
-[← Back to documentation](/README.md#documentation-)
+[← Voltar à documentação](/README.md#documentation-)
